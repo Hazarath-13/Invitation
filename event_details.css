@@ -1,0 +1,56 @@
+.selector h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+}
+
+body {
+    background-color: #D7E4C0;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    flex: 1;
+    margin: 50px;
+}
+
+.container .a ul {
+    list-style-type: none;
+    padding: 40px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 5px 5px 15px rgba(243, 17, 224, 0.3);
+    background-color: #4793AF;
+}
+.container .b ul {
+    list-style-type: none;
+    padding: 40px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 5px 5px 15px rgba(209, 7, 7, 0.3);
+    background-color: #DD5746;
+}
+.container .c ul {
+    list-style-type: none;
+    padding: 40px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 5px 5px 15px rgba(209, 7, 7, 0.3);
+    background-color: #8B322C;
+}
+.container .d ul {
+    list-style-type: none;
+    padding: 40px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 5px 5px 15px rgba(209, 7, 7, 0.3);
+    background-color: #AFD198;
+}
+

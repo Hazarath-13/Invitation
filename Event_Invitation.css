@@ -1,0 +1,130 @@
+/* Importing Google font - Poppins */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.1rem;
+  text-decoration: none;
+}
+
+
+
+.navbar .menu-links {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #420ffd;
+}
+
+.hero-section {
+  height: 100vh;
+  background-image: url("https://img.freepik.com/premium-photo/3d-rendering-futuristic-blue-circuit-board_34663-89.jpg?w=740");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  color: #fff;
+}
+
+.hero-section .content h2 {
+  font-size: 3rem;
+  max-width: 600px;
+  line-height: 70px;
+}
+
+.hero-section .content p {
+  font-weight: 300;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+.hero-section .content button {
+  background: #fff;
+  padding: 12px 30px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin-top: 38px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.hero-section .content button:hover{
+    background-color: aqua;
+}
+.hero-section .content h3{
+  font-size: 30px;
+  max-width: 600px;
+  line-height: 50px;
+  color: red;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.small-pictures {
+  position: absolute;
+  display: flex;
+  top: 30%;
+  right: 150px; 
+
+}
+
+.small-pictures img {
+  display: flex;
+  width: 150px; 
+  margin-bottom: 5px; 
+  border-radius: 16%;
+  padding: 10%;
+  text-align: center;
+}
+.ab h2{
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  position: absolute;
+  top: 150px;
+  right: 180px;
+  font-size: 38px;
+  
+}
+
+

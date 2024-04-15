@@ -1,0 +1,61 @@
+*{
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+ h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    
+}
+
+body {
+    margin: 0px;
+background-image: url("https://img.freepik.com/premium-photo/creative-office-work-tools_145713-4670.jpg?w=740");   
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.selector{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #FFFAB7;
+    border-radius: 10px;
+    margin-left: 150px;
+
+
+}
+h2{
+    text-align: center;
+
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    box-sizing: 10px;
+}
+button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.checkbox input{
+   margin-right: 10px;
+
+}

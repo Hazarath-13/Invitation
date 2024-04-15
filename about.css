@@ -1,0 +1,28 @@
+.selector h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+}
+
+body {
+    background-color: #C6EBC5;
+}
+
+.a {
+    display: flex;
+    
+}
+
+.a img {
+    flex: 1;
+    max-width: 40%;
+    max-height: 30%;
+    border-radius: 6%;
+}
+
+.a p {
+    flex: 2;
+    max-width: 50%;
+    padding: 40px;
+    margin: 20px;
+}
